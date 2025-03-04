@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope and Change Organisation (منظمة الأمل والتغيير)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        header img {
+            max-width: 80px;
+            height: auto;
+        }
+        header h1 {
+            color: #fff;
+            font-size: 24px;
+            margin: 0;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            background: #555;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background: #666;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea, button {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            header img {
+                max-width: 60px;
+            }
+            header h1 {
+                font-size: 20px;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Hope and Change Organisation (منظمة الأمل والتغيير) Logo">
+        <h1>Hope and Change Organisation (منظمة الأمل والتغيير)</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a nonprofit dedicated to making a positive impact in our community.</p>
+    </section>
+    
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Join us as a volunteer or donate to support our cause.</p>
+        <h3>Volunteer Sign-Up</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="How would you like to help?" required></textarea>
+            <button type="submit">Sign Up</button>
+        </form>
+        <h3>Donate</h3>
+        <button onclick="alert('Redirecting to donation page...')">Donate Now</button>
+    </section>
+    
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Check out our latest community events and activities!</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: aymanyonis150@gamil.com</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Hope and Change Organisation (منظمة الأمل والتغيير). All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
